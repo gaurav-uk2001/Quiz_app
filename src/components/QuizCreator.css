@@ -1,0 +1,146 @@
+
+
+h2 {
+  color: #fdd007;
+  background-color:rgb(83,76,88,0.7);
+  margin: 0;
+  border-radius: 30px;
+  font-size: 40px;
+}
+
+form {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(151, 149, 149);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"], select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000; 
+  font-weight: 800;
+  color: #333; 
+}
+
+button[type="button"], button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+  transform: translateY(0);
+
+}
+
+button[type="button"]:hover, button[type="submit"]:hover {
+  background-color: #3e8e41;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff; 
+}
+
+.option-container {
+  display: inline-block;
+  margin-left: 20px;
+  height: 50px;
+  background-color:rgb(110, 124, 255);  
+  
+
+}
+.option-container input{
+  width: fit-content;
+  border: 1px solid white;
+
+}
+
+.option-container:nth-child(2n+1) {
+  margin-right: 0;
+}
+
+.label-inline {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: rgb(110, 124, 255);
+}
+
+.input-narrow {
+  width: 150px;
+}
+
+.label-inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.select-narrow {
+  width: 95px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label-margin {
+  margin-right: 10px;
+}
+
+.input-narrow {
+  width: 150px;
+}
+
+.input-wide {
+  width: 150px;
+}
+.question-container {
+  background-color: rgb(110, 124, 255); 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+button[type="submit"] {
+  background-color: rgb(245, 168, 25); 
+  color: #fff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out, transform 0.3s ease-out; 
+  transform: translateY(0);
+}
+
+button[type="submit"]:hover {
+  background-color:darkorange;
+}
+button[type="addmore"] {
+  background-color:rgb(255, 25, 25); 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+  transform: translateY(0);
+}
+
+button[type="addmore"]:hover {
+  background-color:rgb(194, 6, 6);
+}
